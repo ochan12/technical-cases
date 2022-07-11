@@ -1,0 +1,24 @@
+{
+  "name": "tracab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  },
+  "scripts": {
+    "start": "ts-node index.ts",
+    "duplicates": "ts-node duplicates.ts",
+    "test-replace": "jest replaceText.test.ts",
+    "test-range": "jest findLongestConsecutiveRange.test.ts",
+    "test-dups": "jest eliminateDuplicates.test.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/jest": "^28.1.4",
+    "jest": "^28.1.2",
+    "ts-jest": "^28.0.5",
+    "ts-node": "^10.8.2"
+  }
+}
